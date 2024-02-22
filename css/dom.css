@@ -3,6 +3,7 @@ body, html {
 	margin: 0;
 	font: 400 14px/1.8 "Lato", sans-serif;
 	color: #777;
+	background-color:white
 	}
 
 .bgimg-home, .bgimg-morze, .bgimg-gory {
@@ -78,7 +79,13 @@ body, html {
 }
 
 
-	/* Wielkopolska, Abwanderung, Nazwiska - wyr�nienia textu */
+	/* Początki - wyróżnienia textu */
+h2 {
+	font-size: 16px;
+	}
+
+
+	/* Wielkopolska, Abwanderung, Nazwiska - wyróżnienia textu */
 .grau {
   	color: #778899;
  	font-weight: bold;
@@ -144,9 +151,7 @@ a:hover {
 	}
 
 
-
-
-	/* Wszystkie - link do g�ry */
+	/* Wszystkie - link do góry */
 
 .prawy {
 	text-align: right;
@@ -180,7 +185,7 @@ a:hover {
 	}
 
 
-	/* Pocz�tki - tabela */
+	/* Początki - tabela */
 	
 .krentzowie {
 	table-layout: auto;
@@ -215,17 +220,6 @@ a:hover {
 	}
 
 	
-	/* Nazwisko - mapy i preedytowany text */
-	
-.mapka {
-	text-align: center;
-	}
-	
-pre { 
-	font: 400 14px/1.8 "Lato", sans-serif;
-	}
-
-
 
 * 	{
 	box-sizing: border-box;
@@ -355,7 +349,3 @@ pre {
 	left: 0%;
 	}
 }
-
-h2 {
-	font-size: 16px;
-	}
