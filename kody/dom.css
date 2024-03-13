@@ -40,7 +40,6 @@ body, html {
 	}
 
 .caption span.border {
-	background-color: #111;
 	opacity: 0.65;
 	color: #fff;
 	padding: 18px;
@@ -79,13 +78,27 @@ body, html {
 }
 
 
-	/* Początki - wyróżnienia textu */
+	/* Link do góry */
+
+.prawy {
+	text-align: right;
+	}
+	
+
+	/* Wyróżnienia tekstu */
 h2 {
 	font-size: 16px;
 	}
+	
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+	padding-top: 1em;
+	text-align: left;	
+	}
 
-
-	/* Wielkopolska, Abwanderung, Nazwiska - wyróżnienia textu */
 .grau {
   	color: #778899;
  	font-weight: bold;
@@ -102,20 +115,12 @@ h2 {
   	color: #cc6600;
  	font-weight: bold;
 	}
-	
-h3 {
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	font: 20px "Lato", sans-serif;
-	color: #111;
-	padding-top: 1em;
-	}
 
 a {
 	color: #5885AF;
 	text-decoration: none;
 	}
-
+	
 a:hover {
 	color: #788CA5;
 	}	
@@ -137,28 +142,87 @@ a:hover {
 	}
 	
 
-	/* Wszystkie- tabela */
+	/* Tabela tekstowa */
 
-.babilon {
+.babilon table {
 	table-layout: auto;
+	border-collapse: collapse;
 	width: 100%;
+	}
+	
+.babilon tbody td:hover {
+	background: #E0FFFF;
+	}	
+	
+.babilon th {
+	padding-left: 5px;
+	padding-right: 5px;
 	}
 	
 .babilon td {
 	vertical-align: top;
-	font-size: 14px;
+	font-size: 14px;	
 	text-align: left;
-	}
-
-
-	/* Wszystkie - link do góry */
-
-.prawy {
-	text-align: right;
+	padding-left: 5px;
+	padding-right: 5px;
 	}
 	
+	
+	/* Tabela z linkami */
+	
+.mezopotamia table {
+	table-layout: auto;
+	border-collapse: collapse;
+	width: 100%;
+	}	
+	
+.mezopotamia th {
+	padding-left: 40px;
+	}
+	
+.mezopotamia td {
+	vertical-align: top;
+	text-align: left;
+	width: 30%;
+	}	
+	
+	
+	/* Tabela na slajdy */
+	
+.krentzowie table {
+	table-layout: auto;
+	width: 100%;
+	margin-top: 20px;
+	}
+	
+.krentzowie tr {
+	text-align: center;
+	}	
+	
+.krentzowie td {
+   	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+	}
 
-	/* Wszystkie strony - menu */
+.krentzowie img {
+   	padding: 0px 0px 7px 0px;
+	border-bottom: 4px solid;
+	border-bottom-color: transparent;
+	height: 120px;
+	width: 150px;
+	}
+
+.krentzowie a:hover img {
+	border-bottom-color: #946F16;
+	}
+
+.krentzowie img.vorzeige {
+	height: 580px;
+	width: 682px;
+	}
+
+
+	/* Menu */
 
 .topnav {
 	background-image: radial-gradient(circle, #c7c7c7, #333);
@@ -185,42 +249,9 @@ a:hover {
 	}
 
 
-	/* Początki - tabela */
-	
-.krentzowie {
-	table-layout: auto;
-	width: 100%;
-	margin-top: 20px;
-	}
-	
-.krentzowie td {
-   	padding: 5px 5px 5px 5px;
-	vertical-align: top;
-	}
-	
-.krentzowie tr {
-	text-align: center;
-	}
-
-.krentzowie img {
-   	padding: 0px 0px 7px 0px;
-	border-bottom: 4px solid;
-	border-bottom-color: transparent;
-	height: 120px;
-	width: 150px;
-	}
-
-.krentzowie a:hover img {
-	border-bottom-color: #946F16;
-	}
-
-.krentzowie img.vorzeige {
-	height: 580px;
-	width: 682px;
-	}
+	/* Oś czasu */
 
 	
-
 * 	{
 	box-sizing: border-box;
 	}
